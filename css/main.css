@@ -55,9 +55,19 @@
 html {
   font-size: 12px;
 }
+@media only screen and (max-width: 80rem) {
+  html {
+    font-size: 11px;
+  }
+}
 @media only screen and (max-width: 50rem) {
   html {
-    fon t-size: 1rem;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 40rem) {
+  html {
+    font-size: 9px;
   }
 }
 
@@ -1632,7 +1642,7 @@ input::-moz-focus-inner {
 
   .header-menu-toggle {
     right: 2.5rem;
-    top: 3rem;
+    top: 3.2rem;
   }
 }
 @media only screen and (max-width: 50rem) {
@@ -1654,7 +1664,7 @@ input::-moz-focus-inner {
   }
 
   .header-menu-toggle {
-    top: 2.4rem;
+    top: 2.6rem;
     right: 2rem;
   }
 }
@@ -3113,6 +3123,18 @@ html.no-csstransitions .home-content__main {
   display: none;
 }
 
+.footer-break::before {
+  content: ' · ';
+}
+@media only screen and (max-width: 40rem) {
+  .footer-break {
+    display: block !important;
+    line-height: .5;
+  }
+  .footer-break::before {
+    content: ' — ';
+  }
+}
 
 /* ------------------------------------------------------------------- 
  * ## go to top
