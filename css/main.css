@@ -1341,8 +1341,11 @@ input::-moz-focus-inner {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.header-logo::before {
+  content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+}
 .header-logo a {
-  display: block;
+  display: inline-block;
   padding: 0;
   outline: 0;
   border: none;
@@ -1351,9 +1354,22 @@ input::-moz-focus-inner {
   font-size: 3rem;
   font-family: 'domine-bold', serif;
 }
-.header-logo img {
-  width: 20rem;
-  height: auto;
+.header-logo svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+}
+.site-logo-text::before {
+  content: 'codesurgery.io';
+}
+@media only screen and (max-width: 40rem) {
+  .site-logo-text::before {
+    content: '|';
+    visibility: hidden;
+    user-select: none;
+  }
 }
 
 
