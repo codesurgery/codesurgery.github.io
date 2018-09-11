@@ -342,6 +342,44 @@ hr {
   height: 0;
 }
 
+.backgroundcliptext .magic-text-bg {
+  color: transparent;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+}
+
+.magic-bg {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+@keyframes Gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
 
 /* ------------------------------------------------------------------- 
  * ## Lists
@@ -1898,9 +1936,6 @@ input::-moz-focus-inner {
 .home-social a:hover {
   border-bottom: 1px solid #ffffff;
 }
-.home-social i {
-  display: none;
-}
 .home-social .home-social-title {
   font-family: "interui-medium", sans-serif;
   padding-right: 4rem;
@@ -2248,7 +2283,11 @@ html.no-csstransitions .home-content__main {
   font-size: 2.1rem;
   text-align: center;
   color: #ffffff;
-  background-color: #26bfb5;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
   height: 4.8rem;
   width: 4.8rem;
   line-height: 4.8rem;
@@ -2383,10 +2422,23 @@ html.no-csstransitions .home-content__main {
   margin-bottom: 1.8rem;
 }
 .services-list .service-icon {
-  color: #26bfb5;
+  color: #f1f1f1;
   font-size: 4.8rem;
 }
-
+.services-list .service-icon-bg {
+  width: 1.2em;
+  height: 1.2em;
+  display: inline-block;
+  position: relative;
+  border-radius: 8px;
+}
+.services-list .service-icon-bg svg {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  width: 76%;
+  height: 76%;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:

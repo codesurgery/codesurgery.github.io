@@ -13,8 +13,8 @@
   var clPreloader = function () {
     $('html').addClass('cl-preload');
     $WIN.on('load', function () {
-      $('#loader').fadeOut('slow', function () {
-        $('#preloader').delay(300).fadeOut('slow');
+      $('#loader').fadeOut(300, function () {
+        $('#preloader').delay(300).fadeOut(300);
       });
       $('html').removeClass('cl-preload');
       $('html').addClass('cl-loaded');
@@ -269,6 +269,7 @@
   var clGetLocation = function () {
     var locCb = function (loc) {
       var country = loc.country;
+      var code = loc.countryCode;
       if (country) {
         var theCountryPrefixes = [
           'United ',
@@ -291,18 +292,22 @@
         var prefix, i;
         for (i = 0; i < theCountryPrefixes.length; i++) {
           prefix = theCountryPrefixes[i];
-          if (!country.indexOf(prefix)) return countryCb('the ' + country);
+          if (!country.indexOf(prefix)) return countryCb(code, 'the ' + country);
         }
         for (i = 0; i < TheCountryPrefixes.length; i++) {
           prefix = TheCountryPrefixes[i];
-          if (!country.indexOf(prefix)) return countryCb('The ' + country);
+          if (!country.indexOf(prefix)) return countryCb(code, 'The ' + country);
         }
-        return countryCb(country);
+        return countryCb(code, country);
       }
     };
-    var countryCb = function (country) {
+    var countryCb = function (code, country) {
+      code = code.toLowerCase();
       var localeEl = document.getElementById('locale');
-      localeEl.innerHTML = 'Proudly serving ' + country + '.';
+      localeEl.setAttribute('class', 'flag-icon flag-icon-' + code);
+      localeEl.style.borderRadius = '9999px';
+      localeEl.style.border = '1px solid #fff';
+      localeEl.style.boxSizing = 'content-box';
     };
 
     var loc = window.localStorage.getItem('loc');
