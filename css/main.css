@@ -2392,6 +2392,7 @@ html.no-csstransitions .home-content__main {
   display: inline-block;
   position: relative;
   border-radius: 8px;
+  background-color: #cc147f;
 }
 .services-list .service-icon-bg svg {
   position: absolute;
