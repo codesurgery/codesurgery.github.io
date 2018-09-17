@@ -206,10 +206,9 @@
   /* Animate On Scroll */
   var clAOS = function () {
     AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: 'ease-in-sine',
-      delay: 300,
+      offset: 0,
+      duration: 400,
+      delay: 200,
       once: true,
       disable: 'mobile'
     });

@@ -7,10 +7,7 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/flag-icons/flag-icon.min.css">
+    <link rel="stylesheet" href="css/all.css">
 
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
@@ -20,562 +17,553 @@
   </head>
 
   <body id="top">
-    <header class="s-header">
-      <div class="header-logo">
-        <a class="site-logo" href=".">
-          <svg version="1" viewBox="0 0 600 600" fill="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg">
-            <path fill="none" d="M0 0h600v600H0z"/>
-            <path fill="none" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
-            <path stroke="currentColor" stroke-width="24" stroke-linejoin="round" stroke-linecap="butt" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
-            <path fill="none" d="M60 174h407v409H60z"/>
-            <path fill="currentColor" d="M279 428q11 7 11 19 0 10-7 16t-15 6q-6 0-11-3L95 370q-11-8-11-21 0-11 11-19l162-97q6-3 11-3 9 0 16 6 6 6 6 15 0 13-11 20l-131 78 131 79zm-11 52q9 0 16 6 6 6 6 15 0 10-6 17-7 6-16 6H106q-10 0-16-6-6-7-6-17 0-9 6-15t16-6h162z"/>
-            <path fill="none" d="M165 168h389v409H165z"/>
-            <path fill="currentColor" d="M422 188q25 0 46 11t33 30q12 19 12 43t-15 41q-14 17-37 27 33 12 50 35 16 23 16 55 0 28-15 51-14 23-38 36-25 13-53 13-32 0-58-14t-40-38q-14-24-14-53 0-10 5-17 6-6 15-6 8 0 14 6 6 7 6 17 0 18 9 33t25 24q16 9 35 9 30 0 47-17 18-16 18-44 0-18-8-33t-22-24q-14-8-30-8-10 0-16-7-7-6-7-16t7-16q6-6 16-6 12 0 24-7 11-6 18-17 8-11 8-24 0-19-14-32-14-14-36-14-17 0-31 7-13 7-21 18-9 10-9 24 0 10-5 17-6 7-15 7-8 0-14-7-6-6-6-16 0-25 13-45t36-32q23-11 51-11z"/>
-          </svg>
-          <span class="site-logo-text"></span>
+    <div id="wrapper">
+      <header class="s-header">
+        <div class="header-logo">
+          <a class="site-logo" href=".">
+            <svg version="1" viewBox="0 0 600 600" fill="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg">
+              <path fill="none" d="M0 0h600v600H0z"/>
+              <path fill="none" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
+              <path stroke="currentColor" stroke-width="24" stroke-linejoin="round" stroke-linecap="butt" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
+              <path fill="none" d="M60 174h407v409H60z"/>
+              <path fill="currentColor" d="M279 428q11 7 11 19 0 10-7 16t-15 6q-6 0-11-3L95 370q-11-8-11-21 0-11 11-19l162-97q6-3 11-3 9 0 16 6 6 6 6 15 0 13-11 20l-131 78 131 79zm-11 52q9 0 16 6 6 6 6 15 0 10-6 17-7 6-16 6H106q-10 0-16-6-6-7-6-17 0-9 6-15t16-6h162z"/>
+              <path fill="none" d="M165 168h389v409H165z"/>
+              <path fill="currentColor" d="M422 188q25 0 46 11t33 30q12 19 12 43t-15 41q-14 17-37 27 33 12 50 35 16 23 16 55 0 28-15 51-14 23-38 36-25 13-53 13-32 0-58-14t-40-38q-14-24-14-53 0-10 5-17 6-6 15-6 8 0 14 6 6 7 6 17 0 18 9 33t25 24q16 9 35 9 30 0 47-17 18-16 18-44 0-18-8-33t-22-24q-14-8-30-8-10 0-16-7-7-6-7-16t7-16q6-6 16-6 12 0 24-7 11-6 18-17 8-11 8-24 0-19-14-32-14-14-36-14-17 0-31 7-13 7-21 18-9 10-9 24 0 10-5 17-6 7-15 7-8 0-14-7-6-6-6-16 0-25 13-45t36-32q23-11 51-11z"/>
+            </svg>
+            <span class="site-logo-text"></span>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+          <div class="header-nav__content">
+            <h3>codesurgery.io</h3>
+            <ul class="header-nav__list">
+              <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+              <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+              <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+              <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+              <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+            <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+          </div>
+        </nav>
+        <a class="header-menu-toggle" href="#0">
+          <span class="header-menu-icon"></span>
         </a>
-      </div>
-      <nav class="header-nav">
-        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-        <div class="header-nav__content">
-          <h3>codesurgery.io</h3>
-          <ul class="header-nav__list">
-            <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-            <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-            <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-            <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-            <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-          </ul>
-          <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-          <ul class="header-nav__social">
-            <li>
-              <a href="#0"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-behance"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-dribbble"></i></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <a class="header-menu-toggle" href="#0">
-        <span class="header-menu-icon"></span>
-      </a>
-    </header>
+      </header>
 
-    <!-- home -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-      <div class="shadow-overlay"></div>
-      <div class="home-content">
-        <div class="row home-content__main">
-          <h1>
-            Custom apps and websites
-            for you or your business.
-          </h1>
-          <p>
-            If it can be made, we can make it.
-          </p>
+      <!-- home -->
+      <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+        <div class="shadow-overlay"></div>
+        <div class="home-content">
+          <div class="row home-content__main">
+            <h1 class="display-1">
+              <span>
+                Powerful websites and mobile apps...
+              </span>
+            </h1>
+            <p>
+              <span>
+                ...for less than you'd expect.
+              </span>
+            </p>
+          </div>
         </div>
-      </div>
-      <ul class="home-sidelinks">
-        <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-        <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-        <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-      </ul>
-      <ul class="home-social">
-        <li class="home-social-title">Follow Us</li>
-        <li><a href="#0"><span class="home-social-text">Facebook</span></a></li>
-        <li><a href="#0"><span class="home-social-text">Twitter</span></a></li>
-        <li><a href="#0"><span class="home-social-text">LinkedIn</span></a></li>
-      </ul>
-      <a href="#about" class="home-scroll smoothscroll">
-        <span class="home-scroll__text">Scroll Down</span>
-        <span class="home-scroll__icon"></span>
-      </a>
-    </section>
+        <ul class="home-sidelinks">
+          <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
+          <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
+          <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+        </ul>
+        <a href="#about" class="home-scroll smoothscroll">
+          <span class="home-scroll__text">Scroll Down</span>
+          <span class="home-scroll__icon">
+            <span class="material-arrow_downward"></span>
+          </span>
+        </a>
+      </section>
 
-    <!-- about -->
-    <section id='about' class="s-about">
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">Who We Are</h3>
-          <h1 class="display-1">We are a group of design driven individuals passionate about creating beautiful UI designs.</h1>
-        </div>
-      </div>
-      <div class="row" data-aos="fade-up">
-        <div class="col-full">
-          <p class="lead">
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="about-process process block-1-2 block-tab-full">
-          <div class="process__vline-left"></div>
-          <div class="process__vline-right"></div>
-          <div class="col-block process__col" data-item="1" data-aos="fade-up">
-            <div class="process__text">
-              <h4>Define</h4>
-              <p>
-                Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-              </p>
-            </div>
-          </div>
-          <div class="col-block process__col" data-item="2" data-aos="fade-up">
-            <div class="process__text">
-              <h4>Design</h4>
-              <p>
-                Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-              </p>
-            </div>
-          </div>
-          <div class="col-block process__col" data-item="3" data-aos="fade-up">
-            <div class="process__text">
-              <h4>Build</h4>
-              <p>
-                Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-              </p>
-            </div>
-          </div>
-          <div class="col-block process__col" data-item="4" data-aos="fade-up">
-            <div class="process__text">
-              <h4>Launch</h4>
-              <p>
-                Quos dolores saepe mollitia deserunt accusamus autem reprehenderit. Voluptas facere animi explicabo non quis magni recusandae. 
-                Numquam debitis pariatur omnis facere unde. Laboriosam minus amet nesciunt est. Et saepe eos maxime tempore quasi deserunt ab.
-              </p>
-            </div>
+      <!-- about -->
+      <section id='about' class="s-about">
+        <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+            <h3 class="subhead">Who We Are</h3>
+            <h1 class="display-1">
+              We are highly-qualified coders who are make cutting-edge
+              technical solutions available to the masses.
+            </h1>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- services -->
-    <section id='services' class="s-services light-gray">
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">What We Do</h3>
-          <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
-        </div>
-      </div>
-      <div class="row" data-aos="fade-up">
-        <div class="col-full">
-          <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse. 
-          </p>
-        </div>
-      </div>
-      <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-        <div class="col-block service-item " data-aos="fade-up">
-          <div class="service-icon service-icon--brand-identity">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><g fill="currentColor"><path opacity=".3" d="M12 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM8.88 7.82L11 9.94 9.94 11 8.88 9.94 7.82 11 6.76 9.94l2.12-2.12zM12 17.5c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5zm4.18-6.5l-1.06-1.06L14.06 11 13 9.94l2.12-2.12 2.12 2.12L16.18 11z"/><path d="M8.88 9.94L9.94 11 11 9.94 8.88 7.82 6.76 9.94 7.82 11zM13 9.94L14.06 11l1.06-1.06L16.18 11l1.06-1.06-2.12-2.12z"/><path d="M11.99 2C6.47 2 2 6.47 2 12s4.47 10 9.99 10S22 17.53 22 12 17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M12 17.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">Brand Identity</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+        <div class="row" data-aos="fade-up">
+          <div class="col-full">
+            <p class="lead"><strong>The best coders write code for fun.</strong></p>
+            <p class="lead">
+              We embrace this. CodeSurgery can offer much lower prices for clients and much more
+              interesting projects for programmers to work on. We're not your typical software
+              development company &ndash; here's a few things we do differently.
             </p>
           </div>
         </div>
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon service-icon--illustration">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><g fill="currentColor"><path opacity=".3" d="M3 3h2v2H3zM19 19h2v2h-2zM19 3h2v2h-2zM3 19h2v2H3z"/><path d="M11.29 7l-3.4 9h1.62l.73-2h3.49l.74 2h1.63l-3.41-9h-1.4zm-.6 5.74L12 8.91l1.3 3.83h-2.61z"/><path d="M17 3H7V1H1v6h2v10H1v6h6v-2h10v2h6v-6h-2V7h2V1h-6v2zM3 3h2v2H3V3zm2 18H3v-2h2v2zm16 0h-2v-2h2v2zM19 3h2v2h-2V3zm0 14h-2v2H7v-2H5V7h2V5h10v2h2v10z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">Illustration</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-            </p>
-          </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon service-icon--web-design">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><defs><path id="a" d="M0 0h24v24H0z"/></defs><g fill="currentColor"><path opacity=".3" d="M4 6h16v10H4z"/><path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">Web Design</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-            </p>
-          </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon service-icon--product-strategy">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><g fill="currentColor"><path opacity=".3" d="M19 13h-2V7h-6V5c0-.28-.22-.5-.5-.5s-.5.22-.5.5v2H4l.01 2.12C5.76 9.8 7 11.51 7 13.5c0 1.99-1.25 3.7-3 4.38V20h2.12c.68-1.75 2.39-3 4.38-3 1.99 0 3.7 1.25 4.38 3H17v-6h2c.28 0 .5-.22.5-.5s-.22-.5-.5-.5z"/><path d="M19 11V7c0-1.1-.9-2-2-2h-4a2.5 2.5 0 0 0-5 0H4c-1.1 0-1.99.9-1.99 2v3.8h.29c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-.3c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7v.3H17c1.1 0 2-.9 2-2v-4a2.5 2.5 0 0 0 0-5zm0 3h-2v6h-2.12a4.71 4.71 0 0 0-4.38-3 4.71 4.71 0 0 0-4.38 3H4v-2.12c1.75-.68 3-2.39 3-4.38 0-1.99-1.24-3.7-2.99-4.38L4 7h6V5c0-.28.22-.5.5-.5s.5.22.5.5v2h6v6h2c.28 0 .5.22.5.5s-.22.5-.5.5z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">Product Strategy</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-            </p>
-          </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon service-icon--ui-design">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><g fill="currentColor"><path d="M18 6h4v11h-4zM7 19h10V4H7v15zM9 6h6v11H9V6zM2 6h4v11H2z"/><path opacity=".3" d="M9 6h6v11H9z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">UI/UX Design</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-            </p>
-          </div>
-        </div>
-        <div class="col-block service-item" data-aos="fade-up">
-          <div class="service-icon service-icon--mobile-dev">
-            <div class="service-icon-bg">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><g fill="currentColor"><path d="M7 5h10v2h2V3c0-1.1-.9-1.99-2-1.99L7 1c-1.1 0-2 .9-2 2v4h2V5zm8.41 11.59L20 12l-4.59-4.59L14 8.83 17.17 12 14 15.17l1.41 1.42zM10 15.17L6.83 12 10 8.83 8.59 7.41 4 12l4.59 4.59L10 15.17zM17 19H7v-2H5v4c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-4h-2v2z"/></g></svg>
-            </div>
-          </div>
-          <div class="service-text">
-            <h3 class="h4">Mobile Development</h3>
-            <p>
-              Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-              Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-              Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- works -->
-    <section id='works' class="s-works">
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead">Featured Works</h3>
-          <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
-        </div>
-      </div>
-      <div class="row masonry-wrap">
-        <div class="masonry">
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
-                  <img src="images/portfolio/lamp.jpg" 
-                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Lamp</h3>
-                <p class="item-folio__cat">Web Design</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <div class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </div>
-            </div>
-          </div>
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
-                  <img src="images/portfolio/salad.jpg" 
-                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Salad</h3>
-                <p class="item-folio__cat">Branding</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <span class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </span>
-            </div>
-          </div>
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                  <img src="images/portfolio/woodcraft.jpg"
-                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Woodcraft</h3>
-                <p class="item-folio__cat">Branding</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <span class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </span>
-            </div>
-          </div>
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
-                  <img src="images/portfolio/liberty.jpg"
-                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Liberty</h3>
-                <p class="item-folio__cat">Web Development</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <span class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </span>
-            </div>
-          </div>
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
-                  <img src="images/portfolio/fuji.jpg"
-                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Fuji</h3>
-                <p class="item-folio__cat">Web Design</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <span class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </span>
-            </div>
-          </div>
-          <div class="masonry__brick" data-aos="fade-up">
-            <div class="item-folio">
-              <div class="item-folio__thumb">
-                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                  <img src="images/portfolio/shutterbug.jpg"
-                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                </a>
-              </div>
-              <div class="item-folio__text">
-                <h3 class="item-folio__title">Lady Shutterbug</h3>
-                <p class="item-folio__cat">Branding</p>
-              </div>
-              <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                Project Link
-              </a>
-              <span class="item-folio__caption">
-                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonials-wrap" data-aos="fade-up">
         <div class="row">
-          <div class="col-full testimonials-header">
-            <h2 class="h1">What Clients Are Saying.</h2>
-          </div>
-        </div>
-        <div class="row testimonials">
-          <div class="col-full testimonials__slider">
-            <div class="testimonials__slide">
-              <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-              <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
-              Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
-              <div class="testimonials__author">
-                Tim Cook
-                <span>CEO, Apple</span>
+          <div class="about-process process block-1-2 block-tab-full">
+            <div class="process__vline-left"></div>
+            <div class="process__vline-right"></div>
+            <div class="col-block process__col" data-item="1" data-aos="fade-up">
+              <div class="process__text">
+                <h4>We code in front of you</h4>
+                <p>
+                  The software development industry is the only industry that gets away with charging hourly without proof of work.
+                  Currently we offer to write code in front of you and we are developing a technical solution to show the coder's
+                  screen during development, so you can see exactly what you're getting.
+                </p>
               </div>
             </div>
-            <div class="testimonials__slide">
-              <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-              <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-              Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-              <div class="testimonials__author">
-                Sundar Pichai
-                <span>CEO, Google</span>
+            <div class="col-block process__col" data-item="2" data-aos="fade-up">
+              <div class="process__text">
+                <h4>We are hyper-efficient</h4>
+                <p>
+                  There is no one-size-fits-all approach to scaling development. Developers frequently waste a lot of time
+                  to underestimating or overestimating the value of scalability. Our balanced approach means we can launch much
+                  faster than typical agencies.
+                </p>
               </div>
             </div>
-            <div class="testimonials__slide">
-              <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-              <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-              Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-              <div class="testimonials__author">
-                Satya Nadella
-                <span>CEO, Microsoft</span>
+            <div class="col-block process__col" data-item="3" data-aos="fade-up">
+              <div class="process__text">
+                <h4>We have the best coders</h4>
+                <p>
+                  There is a (<a href="http://antirez.com/news/112" target="_blank" rel="nofollow noopener">controversial</a>)
+                  saying that some coders can be as much as 10 times as efficient as others in terms of getting things done.
+                  Many in our team have full-time jobs at the biggest technology companies in the world, and spend their evenings and
+                  weekends coding for the CodeSurgery.
+                </p>
+              </div>
+            </div>
+            <div class="col-block process__col" data-item="4" data-aos="fade-up">
+              <div class="process__text">
+                <h4>We use the latest technology</h4>
+                <p>
+                  We use the latest equipment, software and technical solutions. This makes the projects interesting for our developers,
+                  development shorter and cheaper, and the end-product beautiful, fast and more reliable.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- stats -->
-    <section id="stats" class="s-stats">
-      <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-        <div class="col-block stats__col ">
-          <div class="stats__count">129</div>
-          <h5>Awards Received</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">1507</div>
-          <h5>Cups of Coffee</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">108</div>
-          <h5>Projects Completed</h5>
-        </div>
-        <div class="col-block stats__col">
-          <div class="stats__count">103</div>
-          <h5>Happy Clients</h5> 
-        </div>
-      </div>
-    </section>
-
-    <!-- contact -->
-    <section id="contact" class="s-contact">
-      <div class="row section-header" data-aos="fade-up">
-        <div class="col-full">
-          <h3 class="subhead subhead--light">Contact Us</h3>
-          <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-full contact-main" data-aos="fade-up">
-          <p>
-            <a href="mailto:#0" class="contact-email">hello@codesurgery.io</a>
-            <span class="contact-number">+1 (917) 123 456  /  +1 (917) 333 987</span>
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-          <h3 class="subhead subhead--light">Where To Find Us</h3>
-          <p class="contact-address">
-            1600 Amphitheatre Parkway<br>
-            Mountain View, CA<br>
-            94043 US
-          </p>
-        </div>
-        <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-          <h3 class="subhead subhead--light">Follow Us</h3>
-          <ul class="contact-social">
-            <li>
-              <a href="#0"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-behance"></i></a>
-            </li>
-            <li>
-              <a href="#0"><i class="fab fa-dribbble"></i></a>
-            </li>
-          </ul>
-          <div class="contact-subscribe">
-            <form id="mc-form" class="group mc-form" novalidate="true">
-              <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-              <input type="submit" name="subscribe" value="Subscribe">
-              <label for="mc-email" class="subscribe-message"></label>
-            </form>
+      <!-- services -->
+      <section id='services' class="s-services light-gray">
+        <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+            <h3 class="subhead">What We Do</h3>
+            <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-full cl-copyright">
-          <span>
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> codesurgery.io
-            <span class="footer-break"></span>
-            All rights reserved.
-          </span> 
+        <div class="row" data-aos="fade-up">
+          <div class="col-full">
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse. 
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="cl-go-top">
-        <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-      </div>
-    </section>
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+          <div class="col-block service-item " data-aos="fade-up">
+            <div class="service-icon service-icon--brand-identity">
+              <div class="service-icon-bg">
+                <span class="material-tag_faces"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">Brand Identity</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--illustration">
+              <div class="service-icon-bg">
+                <span class="material-photo_size_select_actual"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">Illustration</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--web-design">
+              <div class="service-icon-bg">
+                <span class="material-computer"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">Web Design</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--product-strategy">
+              <div class="service-icon-bg">
+                <span class="material-playlist_add_check"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">Product Strategy</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--ui-design">
+              <div class="service-icon-bg">
+                <span class="material-view_carousel"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">UI/UX Design</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon service-icon--mobile-dev">
+              <div class="service-icon-bg">
+                <span class="material-developer_mode"></span>
+              </div>
+            </div>
+            <div class="service-text">
+              <h3 class="h4">Mobile Development</h3>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-      <div class="pswp__bg"></div>
-      <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
+      <!-- works -->
+      <section id='works' class="s-works">
+        <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+            <h3 class="subhead">Featured Works</h3>
+            <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
+          </div>
         </div>
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-            <button class="pswp__button pswp__button--share" title="Share"></button>
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
+        <div class="row masonry-wrap">
+          <div class="masonry">
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/portfolio/lamp.jpg" 
+                       srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Lamp</h3>
+                  <p class="item-folio__cat">Web Design</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <div class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </div>
+              </div>
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                    <img src="images/portfolio/salad.jpg" 
+                       srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Salad</h3>
+                  <p class="item-folio__cat">Branding</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <span class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+              </div>
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                    <img src="images/portfolio/woodcraft.jpg"
+                       srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Woodcraft</h3>
+                  <p class="item-folio__cat">Branding</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <span class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+              </div>
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
+                    <img src="images/portfolio/liberty.jpg"
+                       srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Liberty</h3>
+                  <p class="item-folio__cat">Web Development</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <span class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+              </div>
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
+                    <img src="images/portfolio/fuji.jpg"
+                       srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Fuji</h3>
+                  <p class="item-folio__cat">Web Design</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <span class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+              </div>
+            </div>
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+                <div class="item-folio__thumb">
+                  <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                    <img src="images/portfolio/shutterbug.jpg"
+                       srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                  </a>
+                </div>
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">Lady Shutterbug</h3>
+                  <p class="item-folio__cat">Branding</p>
+                </div>
+                <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                  Project Link
+                </a>
+                <span class="item-folio__caption">
+                  <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-wrap" data-aos="fade-up">
+          <div class="row">
+            <div class="col-full testimonials-header">
+              <h2 class="h1">What Clients Are Saying.</h2>
+            </div>
+          </div>
+          <div class="row testimonials">
+            <div class="col-full testimonials__slider">
+              <div class="testimonials__slide">
+                <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                <div class="testimonials__author">
+                  Tim Cook
+                  <span>CEO, Apple</span>
+                </div>
+              </div>
+              <div class="testimonials__slide">
+                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                <div class="testimonials__author">
+                  Sundar Pichai
+                  <span>CEO, Google</span>
+                </div>
+              </div>
+              <div class="testimonials__slide">
+                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                <div class="testimonials__author">
+                  Satya Nadella
+                  <span>CEO, Microsoft</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-            <div class="pswp__share-tooltip"></div>
+        </div>
+      </section>
+
+      <!-- stats -->
+      <section id="stats" class="s-stats">
+        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+          <div class="col-block stats__col ">
+            <div class="stats__count">129</div>
+            <h5>Awards Received</h5>
           </div>
-          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
+          <div class="col-block stats__col">
+            <div class="stats__count">1507</div>
+            <h5>Cups of Coffee</h5>
+          </div>
+          <div class="col-block stats__col">
+            <div class="stats__count">108</div>
+            <h5>Projects Completed</h5>
+          </div>
+          <div class="col-block stats__col">
+            <div class="stats__count">103</div>
+            <h5>Happy Clients</h5> 
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section id="contact" class="s-contact">
+        <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+            <h3 class="subhead subhead--light">Contact Us</h3>
+            <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-full contact-main" data-aos="fade-up">
+            <p>
+              <a href="mailto:#0" class="contact-email">hello@codesurgery.io</a>
+              <span class="contact-number">+1 (917) 123 456  /  +1 (917) 333 987</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+            <h3 class="subhead subhead--light">Where To Find Us</h3>
+            <p class="contact-address">
+              1600 Amphitheatre Parkway<br>
+              Mountain View, CA<br>
+              94043 US
+            </p>
+          </div>
+          <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+            <h3 class="subhead subhead--light">Follow Us</h3>
+            <ul class="contact-social">
+              <li>
+                <a href="#0"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#0"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#0"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#0"><i class="fab fa-behance"></i></a>
+              </li>
+              <li>
+                <a href="#0"><i class="fab fa-dribbble"></i></a>
+              </li>
+            </ul>
+            <div class="contact-subscribe">
+              <form id="mc-form" class="group mc-form" novalidate="true">
+                <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                <input type="submit" name="subscribe" value="Subscribe">
+                <label for="mc-email" class="subscribe-message"></label>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-full cl-copyright">
+            <span>
+              Copyright &copy; <script>document.write(new Date().getFullYear());</script> codesurgery.io
+              <span class="footer-break"></span>
+              All rights reserved.
+            </span> 
+          </div>
+        </div>
+        <div class="cl-go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top">
+            <span class="material-arrow_upward"></span>
+          </a>
+        </div>
+      </section>
+
+      <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+              <button class="pswp__button pswp__button--share" title="Share"></button>
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="preloader">
-      <div id="loader">
-      </div>
-    </div>
-
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/codesurgery/material-design-icons-v2/a74a5fb7/outline/css/outline.svg.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
   </body>
 </html>

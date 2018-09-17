@@ -1,0 +1,33 @@
+// serif
+@font-face {
+  font-family: 'domine-regular';
+  src: url('../fonts/domine/domine-regular-webfont.woff2') format('woff2'), url('../fonts/domine/domine-regular-webfont.woff') format('woff'), url('../fonts/domine/domine-regular-webfont.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'domine-bold';
+  src: url('../fonts/domine/domine-bold-webfont.woff2') format('woff2'), url('../fonts/domine/domine-bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
+// sans-serif
+@font-face {
+  font-family: 'interui-bold';
+  src: url('../fonts/interui/Inter-UI-Bold.woff2') format('woff2'), url('../fonts/interui/Inter-UI-Bold.woff') format('woff'), url('../fonts/interui/Inter-UI-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'interui-medium';
+  src: url('../fonts/interui/Inter-UI-Medium.woff2') format('woff2'), url('../fonts/interui/Inter-UI-Medium.woff') format('woff'), url('../fonts/interui/Inter-UI-Medium.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'interui-regular';
+  src: url('../fonts/interui/Inter-UI-Regular.woff2') format('woff2'), url('../fonts/interui/Inter-UI-Regular.woff') format('woff'), url('../fonts/interui/Inter-UI-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: normal;
+}
