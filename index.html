@@ -21,22 +21,12 @@
       <header class="s-header">
         <div class="header-logo">
           <a class="site-logo" href=".">
-            <svg version="1" viewBox="0 0 600 600" fill="none" stroke-linecap="square" stroke-miterlimit="10" xmlns="http://www.w3.org/2000/svg">
-              <path fill="none" d="M0 0h600v600H0z"/>
-              <path fill="none" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
-              <path stroke="currentColor" stroke-width="24" stroke-linejoin="round" stroke-linecap="butt" d="M13 109c0-53 43-96 96-96h382a96 96 0 0 1 96 96v382c0 53-43 96-96 96H109c-53 0-96-43-96-96z"/>
-              <path fill="none" d="M60 174h407v409H60z"/>
-              <path fill="currentColor" d="M279 428q11 7 11 19 0 10-7 16t-15 6q-6 0-11-3L95 370q-11-8-11-21 0-11 11-19l162-97q6-3 11-3 9 0 16 6 6 6 6 15 0 13-11 20l-131 78 131 79zm-11 52q9 0 16 6 6 6 6 15 0 10-6 17-7 6-16 6H106q-10 0-16-6-6-7-6-17 0-9 6-15t16-6h162z"/>
-              <path fill="none" d="M165 168h389v409H165z"/>
-              <path fill="currentColor" d="M422 188q25 0 46 11t33 30q12 19 12 43t-15 41q-14 17-37 27 33 12 50 35 16 23 16 55 0 28-15 51-14 23-38 36-25 13-53 13-32 0-58-14t-40-38q-14-24-14-53 0-10 5-17 6-6 15-6 8 0 14 6 6 7 6 17 0 18 9 33t25 24q16 9 35 9 30 0 47-17 18-16 18-44 0-18-8-33t-22-24q-14-8-30-8-10 0-16-7-7-6-7-16t7-16q6-6 16-6 12 0 24-7 11-6 18-17 8-11 8-24 0-19-14-32-14-14-36-14-17 0-31 7-13 7-21 18-9 10-9 24 0 10-5 17-6 7-15 7-8 0-14-7-6-6-6-16 0-25 13-45t36-32q23-11 51-11z"/>
-            </svg>
-            <span class="site-logo-text"></span>
           </a>
         </div>
         <nav class="header-nav">
           <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
           <div class="header-nav__content">
-            <h3>codesurgery.io</h3>
+            <h3>CodeSurgery</h3>
             <ul class="header-nav__list">
               <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
               <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
@@ -56,7 +46,7 @@
       <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
         <div class="shadow-overlay"></div>
         <div class="home-content">
-          <div class="row home-content__main">
+          <div class="grid home-content__main">
             <h1 class="display-1">
               <span>
                 Powerful websites and mobile apps...
@@ -84,68 +74,62 @@
 
       <!-- about -->
       <section id='about' class="s-about">
-        <div class="row section-header" data-aos="fade-up">
-          <div class="col-full">
-            <h3 class="subhead">Who We Are</h3>
-            <h1 class="display-1">
-              We are highly-qualified coders who are make cutting-edge
-              technical solutions available to the masses.
-            </h1>
-          </div>
+        <div class="grid section-header" data-aos="fade-up">
+          <h3 class="subhead">Who We Are</h3>
+          <h1 class="display-1">
+            We are highly-qualified coders who are make cutting-edge
+            technical solutions available to the masses.
+          </h1>
         </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-full">
-            <p class="lead"><strong>The best coders write code for fun.</strong></p>
-            <p class="lead">
-              We embrace this. CodeSurgery can offer much lower prices for clients and much more
-              interesting projects for programmers to work on. We're not your typical software
-              development company &ndash; here's a few things we do differently.
-            </p>
-          </div>
+        <div class="grid" data-aos="fade-up">
+          <p class="lead"><strong>The best coders write code for fun.</strong></p>
+          <p class="lead">
+            We embrace this. CodeSurgery can offer much lower prices for clients and much more
+            interesting projects for programmers to work on. We're not your typical software
+            development company &ndash; here's a few things we do differently.
+          </p>
         </div>
-        <div class="row">
-          <div class="about-process process block-1-2 block-tab-full">
-            <div class="process__vline-left"></div>
-            <div class="process__vline-right"></div>
-            <div class="col-block process__col" data-item="1" data-aos="fade-up">
-              <div class="process__text">
-                <h4>We code in front of you</h4>
-                <p>
-                  The software development industry is the only industry that gets away with charging hourly without proof of work.
-                  Currently we offer to write code in front of you and we are developing a technical solution to show the coder's
-                  screen during development, so you can see exactly what you're getting.
-                </p>
-              </div>
+        <div class="grid cols-2 cols-sm-1 about-process process">
+          <div class="process__vline-left"></div>
+          <div class="process__vline-right"></div>
+          <div class="col-block process__col" data-item="1" data-aos="fade-up">
+            <div class="process__text">
+              <h4>We code in front of you</h4>
+              <p>
+                The software development industry is the only industry that gets away with charging hourly without proof of work.
+                Currently we offer to write code in front of you and we are developing a technical solution to show the coder's
+                screen during development, so you can see exactly what you're getting.
+              </p>
             </div>
-            <div class="col-block process__col" data-item="2" data-aos="fade-up">
-              <div class="process__text">
-                <h4>We are hyper-efficient</h4>
-                <p>
-                  There is no one-size-fits-all approach to scaling development. Developers frequently waste a lot of time
-                  to underestimating or overestimating the value of scalability. Our balanced approach means we can launch much
-                  faster than typical agencies.
-                </p>
-              </div>
+          </div>
+          <div class="col-block process__col" data-item="2" data-aos="fade-up">
+            <div class="process__text">
+              <h4>We are hyper-efficient</h4>
+              <p>
+                There is no one-size-fits-all approach to scaling development. Developers frequently waste a lot of time
+                to underestimating or overestimating the value of scalability. Our balanced approach means we can launch much
+                faster than typical agencies.
+              </p>
             </div>
-            <div class="col-block process__col" data-item="3" data-aos="fade-up">
-              <div class="process__text">
-                <h4>We have the best coders</h4>
-                <p>
-                  There is a (<a href="http://antirez.com/news/112" target="_blank" rel="nofollow noopener">controversial</a>)
-                  saying that some coders can be as much as 10 times as efficient as others in terms of getting things done.
-                  Many in our team have full-time jobs at the biggest technology companies in the world, and spend their evenings and
-                  weekends coding for the CodeSurgery.
-                </p>
-              </div>
+          </div>
+          <div class="col-block process__col" data-item="3" data-aos="fade-up">
+            <div class="process__text">
+              <h4>We have the best coders</h4>
+              <p>
+                There is a (<a href="http://antirez.com/news/112" target="_blank" rel="nofollow noopener">controversial</a>)
+                saying that some coders can be as much as 10 times as efficient as others in terms of getting things done.
+                Many in our team have full-time jobs at the biggest technology companies in the world, and spend their evenings and
+                weekends coding for the CodeSurgery.
+              </p>
             </div>
-            <div class="col-block process__col" data-item="4" data-aos="fade-up">
-              <div class="process__text">
-                <h4>We use the latest technology</h4>
-                <p>
-                  We use the latest equipment, software and technical solutions. This makes the projects interesting for our developers,
-                  development shorter and cheaper, and the end-product beautiful, fast and more reliable.
-                </p>
-              </div>
+          </div>
+          <div class="col-block process__col" data-item="4" data-aos="fade-up">
+            <div class="process__text">
+              <h4>We use the latest technology</h4>
+              <p>
+                We use the latest equipment, software and technical solutions. This makes the projects interesting for our developers,
+                development shorter and cheaper, and the end-product beautiful, fast and more reliable.
+              </p>
             </div>
           </div>
         </div>
@@ -153,23 +137,19 @@
 
       <!-- services -->
       <section id='services' class="s-services light-gray">
-        <div class="row section-header" data-aos="fade-up">
-          <div class="col-full">
-            <h3 class="subhead">What We Do</h3>
-            <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
-          </div>
+        <div class="grid section-header" data-aos="fade-up">
+          <h3 class="subhead">What We Do</h3>
+          <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
         </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-full">
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse. 
-            </p>
-          </div>
+        <div class="grid" data-aos="fade-up">
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse. 
+          </p>
         </div>
-        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+        <div class="grid services-list cols-2 cols-sm-1">
           <div class="col-block service-item " data-aos="fade-up">
             <div class="service-icon service-icon--brand-identity">
               <div class="service-icon-bg">
@@ -177,7 +157,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">Brand Identity</h3>
+              <h3>Brand Identity</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -192,7 +172,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">Illustration</h3>
+              <h3>Illustration</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -207,7 +187,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">Web Design</h3>
+              <h3>Web Design</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -222,7 +202,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">Product Strategy</h3>
+              <h3>Product Strategy</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -237,7 +217,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">UI/UX Design</h3>
+              <h3>UI/UX Design</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -252,7 +232,7 @@
               </div>
             </div>
             <div class="service-text">
-              <h3 class="h4">Mobile Development</h3>
+              <h3>Mobile Development</h3>
               <p>
                 Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -265,13 +245,11 @@
 
       <!-- works -->
       <section id='works' class="s-works">
-        <div class="row section-header" data-aos="fade-up">
-          <div class="col-full">
-            <h3 class="subhead">Featured Works</h3>
-            <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
-          </div>
+        <div class="grid section-header" data-aos="fade-up">
+          <h3 class="subhead">Featured Works</h3>
+          <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
         </div>
-        <div class="row masonry-wrap">
+        <div class="grid masonry-wrap">
           <div class="masonry">
             <div class="masonry__brick" data-aos="fade-up">
               <div class="item-folio">
@@ -396,15 +374,15 @@
           </div>
         </div>
         <div class="testimonials-wrap" data-aos="fade-up">
-          <div class="row">
-            <div class="col-full testimonials-header">
-              <h2 class="h1">What Clients Are Saying.</h2>
+          <div class="grid">
+            <div class="testimonials-header">
+              <h2>What Clients Are Saying.</h2>
             </div>
           </div>
-          <div class="row testimonials">
-            <div class="col-full testimonials__slider">
+          <div class="grid testimonials">
+            <div class="testimonials__slider">
               <div class="testimonials__slide">
-                <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                <img src="https://place-hold.it/1/#c99" alt="Author image" class="testimonials__avatar">
                 <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
                 Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
                 <div class="testimonials__author">
@@ -413,7 +391,7 @@
                 </div>
               </div>
               <div class="testimonials__slide">
-                <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                <img src="https://place-hold.it/1/#99c" alt="Author image" class="testimonials__avatar">
                 <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
                 Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
                 <div class="testimonials__author">
@@ -422,7 +400,7 @@
                 </div>
               </div>
               <div class="testimonials__slide">
-                <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                <img src="https://place-hold.it/1/#9c9" alt="Author image" class="testimonials__avatar">
                 <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
                 Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
                 <div class="testimonials__author">
@@ -437,20 +415,20 @@
 
       <!-- stats -->
       <section id="stats" class="s-stats">
-        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-          <div class="col-block stats__col ">
+        <div class="grid stats cols-4 cols-md-2 cols-xs-1" data-aos="fade-up">
+          <div class="stats__col">
             <div class="stats__count">129</div>
             <h5>Awards Received</h5>
           </div>
-          <div class="col-block stats__col">
+          <div class="stats__col">
             <div class="stats__count">1507</div>
             <h5>Cups of Coffee</h5>
           </div>
-          <div class="col-block stats__col">
+          <div class="stats__col">
             <div class="stats__count">108</div>
             <h5>Projects Completed</h5>
           </div>
-          <div class="col-block stats__col">
+          <div class="stats__col">
             <div class="stats__count">103</div>
             <h5>Happy Clients</h5> 
           </div>
@@ -459,22 +437,19 @@
 
       <!-- contact -->
       <section id="contact" class="s-contact">
-        <div class="row section-header" data-aos="fade-up">
-          <div class="col-full">
-            <h3 class="subhead subhead--light">Contact Us</h3>
-            <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
-          </div>
+        <div class="grid section-header" data-aos="fade-up">
+          <h3 class="subhead subhead--light">Contact Us</h3>
+          <h1 class="display-1 display-1--light">Get in touch and let's make something great together. Let's turn your idea on an even greater product.</h1>
         </div>
-        <div class="row">
-          <div class="col-full contact-main" data-aos="fade-up">
+        <div class="grid contact-main" data-aos="fade-up">
             <p>
               <a href="mailto:#0" class="contact-email">hello@codesurgery.io</a>
               <span class="contact-number">+1 (917) 123 456  /  +1 (917) 333 987</span>
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+        <div class="grid">
+          <div class="contact-secondary" data-aos="fade-up">
             <h3 class="subhead subhead--light">Where To Find Us</h3>
             <p class="contact-address">
               1600 Amphitheatre Parkway<br>
@@ -484,23 +459,6 @@
           </div>
           <div class="col-five tab-full contact-secondary" data-aos="fade-up">
             <h3 class="subhead subhead--light">Follow Us</h3>
-            <ul class="contact-social">
-              <li>
-                <a href="#0"><i class="fab fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="#0"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#0"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#0"><i class="fab fa-behance"></i></a>
-              </li>
-              <li>
-                <a href="#0"><i class="fab fa-dribbble"></i></a>
-              </li>
-            </ul>
             <div class="contact-subscribe">
               <form id="mc-form" class="group mc-form" novalidate="true">
                 <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
@@ -510,14 +468,12 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-full cl-copyright">
-            <span>
-              Copyright &copy; <script>document.write(new Date().getFullYear());</script> codesurgery.io
-              <span class="footer-break"></span>
-              All rights reserved.
-            </span> 
-          </div>
+        <div class="grid cl-copyright">
+          <span>
+            Copyright &copy; <script>document.write(new Date().getFullYear());</script> codesurgery.io
+            <span class="footer-break"></span>
+            All rights reserved.
+          </span>
         </div>
         <div class="cl-go-top">
           <a class="smoothscroll" title="Back to Top" href="#top">
